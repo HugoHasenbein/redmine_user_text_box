@@ -1,0 +1,17 @@
+<div class="contextual">
+  <%= link_to_function l(:label_options), "$('##{block}-settings').toggle();", :class => 'icon-only icon-settings', :title => l(:label_options) %>
+</div>
+
+<div id="<%= block %>-settings" style="display:none;">
+  <%= form_tag(my_page_path, :remote => true) do %>
+    <div class="box">
+      <%= text_area_tag "settings[#{block}][text]", User.current.pref.my_page_settings.dig('user_text_box', :text).to_s, :style => "width:100%" %>
+    </div>
+    <p>
+      <%= submit_tag l(:button_save) %>
+      <%= link_to_function l(:button_cancel), "$('##{block}-settings').toggle();" %>
+    </p>
+  <% end %>
+</div>
+
+<%= textilizable( User.current.pref.my_page_settings.dig('user_text_box', :text).to_s.presence || l(:label_user_text_box) ) %>
