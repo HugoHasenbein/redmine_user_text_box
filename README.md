@@ -10,7 +10,7 @@ Add a formatted text box to my page, with everything you can do on a wiki page. 
 
 ### Install
 
-1. download plugin and copy plugin folder redmine_repo_sort to Redmine's plugins folder 
+1. download plugin and copy plugin folder redmine_user_text_box to Redmine's plugins folder 
 
 2. restart server f.i.  
 
@@ -30,12 +30,14 @@ Add a formatted text box to my page, with everything you can do on a wiki page. 
 
 ### Use
 
-Just install and go to my page. The Add-select on the upper right of my page will let you add a User text Box. To create content click on te configure button of the user text box block
+Just install and go to 'my page'. The Add-select on the upper right of 'my page' will let you add a User Text Box. To create content click on the configure button of the user text box block.
 
 **Have fun!**
 
 ### Localisations
 
+* German
+* English
 
 
 **0.0.1** 
