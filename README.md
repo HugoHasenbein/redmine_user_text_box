@@ -4,7 +4,7 @@ Redmine plugin to provide a user text box on my page
 
 ### Use case(s)
 
-Add a formatted text box to my page, with everything you can do on a wiki page. Use text box to create a menu with dozens of shortcuts and links
+Add a formatted text box to my page, with everything you can do on a wiki page. Use 'Redmine User text Box' to create a menu with dozens of shortcuts and links
 
 ![PNG that represents a quick overview](/doc/user_text_box_example.png)
 
