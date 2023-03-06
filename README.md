@@ -39,6 +39,8 @@ Just install and go to 'my page'. The Add-select on the upper right of 'my page'
 * German
 * English
 
+**0.1.0**
+  - supports zeitwerk, running on redmine 5+
 
 **0.0.1** 
   - running on Redmine 3.4.6, 3.4.11

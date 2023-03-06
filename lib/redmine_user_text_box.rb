@@ -19,4 +19,4 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-require "patches/my_helper_patch"
+require_relative "redmine_user_text_box/patches/my_helper_patch"

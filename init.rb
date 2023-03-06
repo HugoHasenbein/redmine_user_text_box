@@ -19,17 +19,22 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-require 'redmine'
+# 0.0.1 
+# - running on redmine 3+
+#
+# 0.1.0
+# -running on redmine 5
+#
+
+require_relative "lib/redmine_user_text_box"
 
 Redmine::Plugin.register :redmine_user_text_box do
   name 'Redmine User Box'
   author 'Stephan Wenzel'
   description 'This is a plugin for Redmine to provide a user text box on my page'
-  version '0.0.1'
+  version '0.1.0'
   url 'https://github.com/HugoHasenbein/redmine_user_text_box'
   author_url 'https://github.com/HugoHasenbein/redmine_user_text_box'
   
-
 end
 
-require "redmine_user_text_box"
